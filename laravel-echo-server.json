@@ -1,0 +1,25 @@
+{
+    "authHost": "http://real-time-traffic.xyz",
+    "authEndpoint": "/broadcasting/auth",
+    "clients": [],
+    "database": "redis",
+    "databaseConfig": {
+        "redis": {
+            "host": "127.0.0.1",
+            "port": "6380"
+        }
+    },
+    "devMode": true,
+    "host": "0.0.0.0",
+    "port": "6001",
+    "protocol": "http",
+    "socketio": {},
+    "sslCertPath": "",
+    "sslKeyPath": "",
+    "apiOriginAllow": {
+        "allowCors": true,
+        "allowOrigin": "http://real-time-traffic.xyz",
+        "allowMethods": "GET, POST",
+        "allowHeaders": "Origin, Content-Type, X-Auth-Token, X-Requested-With"
+    }
+}
